@@ -112,6 +112,17 @@
     },
     "localizei18n": {
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr-FR": {
+            "translation": "src/locale/message.ja.xlf"
+          },
+          "es-ES": {
+            "translation": "src/locale/message.eu.xlf"
+          }
+        }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss",
@@ -131,6 +142,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": [
+              "fr-FR",
+              "es-ES"
+            ],
+            "i18nMissingTranslation": "error",
             "outputPath": "dist/localizei18n",
             "index": "projects/localizei18n/src/index.html",
             "browser": "projects/localizei18n/src/main.ts",
@@ -176,6 +192,16 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "fr-FR": {
+              "localize": [
+                "fr-FR"
+              ]
+            },
+            "es-ES": {
+              "localize": [
+                "es-ES"
+              ]
             }
           },
           "defaultConfiguration": "production"
