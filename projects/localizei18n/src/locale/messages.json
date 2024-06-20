@@ -1,0 +1,18 @@
+{
+  "locale": "en-US",
+  "translations": {
+    "heading": " Hello Internationalization its prateek!",
+    "checkLang": "Meta Data for i18n prepaired by Prateek",
+    "href1": "/en-JA/portfolio",
+    "title1": "attribute Check",
+    "aTag": "Attribute Check",
+    "pluralization": " {$ICU} ",
+    "324706692010051697": "{VAR_PLURAL, plural, zero {no tasks} one {one task} other {{INTERPOLATION} tasks}}",
+    "input-placeholder": "Enter your name",
+    "imageTag": "Alt text for logo image",
+    "3702835034531214952": " Created by {$PH}",
+    "option1": "Option 1",
+    "option2": "Option 2",
+    "option3": "Option 3"
+  }
+}

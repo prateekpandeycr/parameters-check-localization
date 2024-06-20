@@ -228,7 +228,7 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "buildTarget": "localizei18n:build",
-            "format": "xlf",
+            "format": "json",
             "outputPath": "projects/localizei18n/src/locale"
           }
         },
