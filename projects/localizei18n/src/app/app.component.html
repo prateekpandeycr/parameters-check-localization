@@ -1,8 +1,8 @@
 <h1 i18n="@@heading"> Hello Internationalization its prateek!</h1>
 <h2 i18n="Meta Data | Hello i am representing the meta data for internationalization@@checkLang ">Meta Data for i18n prepaired by Prateek</h2>
 <p>
-    <a i18n="@@aTag" i18n-href="@@href1" i18n-title="@@title1" href="/en-JA/portfolio" title="attribute Check">Attribute Check</a>
-  </p>
+  <a i18n="@@aTag" i18n-href="@@href1" i18n-title="@@title1" href="/en-JA/portfolio" title="attribute Check">Attribute Check</a>
+</p>
 
   <span i18n="@@pluralization">
     {tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}
@@ -11,6 +11,15 @@
   <p>{{today | date:'fullDate'}}</p>
   <p>{{newTitle}}</p>
 
+
+  <input i18n-placeholder="@@input-placeholder" placeholder="Enter your name" />
+
+
+  <select >
+  <option *ngFor="let option of options" [value]="option.value" >{{ option.label }}</option>
+</select>
+
+<img src="https://media.istockphoto.com/id/1486721631/photo/e-learning-graduate-certificate-program-concept-businessman-hand-holding-light-bulb-with.jpg?s=2048x2048&w=is&k=20&c=x3c_xCOP7PY4z_e2x9bZdBXl4Bt3kazGIw_6R3l_cno=" i18n-alt="@@imageTag" alt="Alt text for logo image" />
 
   <!-- <ul>
      @for(locale of localeList; track locale.code){
