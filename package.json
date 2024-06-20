@@ -7,7 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:parametersCheckLocalization": "node dist/parameters-check-localization/server/server.mjs"
+    "serve:ssr:parametersCheckLocalization": "node dist/parameters-check-localization/server/server.mjs",
+    "serve:ssr:localizei18n": "node dist/localizei18n/server/server.mjs",
+    "serve:ssr:ngxTranslation": "node dist/ngx-translation/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -20,7 +22,7 @@
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/platform-server": "^18.0.0",
     "@angular/router": "^18.0.0",
-    "@angular/ssr": "^18.0.3",
+    "@angular/ssr": "^18.0.4",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
