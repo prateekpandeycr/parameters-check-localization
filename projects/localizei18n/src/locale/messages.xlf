@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="heading" datatype="html">
+        <source> Hello Internationalization its prateek!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="checkLang" datatype="html">
+        <source>Meta Data for i18n prepaired by Prateek</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+        <note priority="1" from="description"> Hello i am representing the meta data for internationalization</note>
+        <note priority="1" from="meaning">Meta Data </note>
+      </trans-unit>
+      <trans-unit id="href1" datatype="html">
+        <source>/en-JA/portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="title1" datatype="html">
+        <source>attribute Check</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aTag" datatype="html">
+        <source>Attribute Check</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pluralization" datatype="html">
+        <source> <x id="ICU" equiv-text="{tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}" xid="9057336704109090456"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="324706692010051697" datatype="html">
+        <source>{VAR_PLURAL, plural, zero {no tasks} one {one task} other {<x id="INTERPOLATION"/> tasks}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3702835034531214952" datatype="html">
+        <source> Created by <x id="PH" equiv-text="this.title"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/localizei18n/src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
