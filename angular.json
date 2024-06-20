@@ -135,7 +135,8 @@
             "index": "projects/localizei18n/src/index.html",
             "browser": "projects/localizei18n/src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "projects/localizei18n/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -199,7 +200,8 @@
           "options": {
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
             ],
             "tsConfig": "projects/localizei18n/tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
