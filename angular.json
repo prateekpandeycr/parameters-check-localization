@@ -214,12 +214,23 @@
             },
             "development": {
               "buildTarget": "localizei18n:build:development"
+            },
+            "fr-FR": {
+              "buildTarget": "localizei18n:build:development,fr-FR"
+            },
+            "es-ES": {
+              "buildTarget": "localizei18n:build:development,es-ES"
             }
           },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n"
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "buildTarget": "localizei18n:build",
+            "format": "xlf",
+            "outputPath": "projects/localizei18n/src/locale"
+          }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
