@@ -394,6 +394,7 @@
             "tsConfig": "projects/dynamic-i18n/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "projects/dynamic-i18n/src/assets",
               {
                 "glob": "**/*",
                 "input": "projects/dynamic-i18n/public"
