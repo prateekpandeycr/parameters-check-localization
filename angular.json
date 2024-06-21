@@ -286,6 +286,7 @@
             "tsConfig": "projects/ngx-translation/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "projects/ngx-translation/src/assets",
               {
                 "glob": "**/*",
                 "input": "projects/ngx-translation/public"
