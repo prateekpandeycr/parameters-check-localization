@@ -116,10 +116,10 @@
         "sourceLocale": "en-US",
         "locales": {
           "fr-FR": {
-            "translation": "src/locale/message.ja.xlf"
+            "translation": "projects/localizei18n/src/locale/messages.fr.xlf"
           },
           "es-ES": {
-            "translation": "src/locale/message.eu.xlf"
+            "translation": "projects/localizei18n/src/locale/messages.eu.xlf"
           }
         }
       },
@@ -228,7 +228,7 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "buildTarget": "localizei18n:build",
-            "format": "json",
+            "format": "xlf",
             "outputPath": "projects/localizei18n/src/locale"
           }
         },

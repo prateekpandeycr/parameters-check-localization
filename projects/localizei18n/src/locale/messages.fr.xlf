@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<xliff version="1.2"
+  xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="heading" datatype="html">
         <source> Hello Internationalization its prateek!</source>
+        <target>JA Value Heading Hello Internationalization its prateek</target>
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">1,2</context>
@@ -11,6 +13,8 @@
       </trans-unit>
       <trans-unit id="checkLang" datatype="html">
         <source>Meta Data for i18n prepaired by Prateek</source>
+        <target>JA Value Meta Data for i18n prepaired by Prateek</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">2,4</context>
@@ -20,6 +24,8 @@
       </trans-unit>
       <trans-unit id="href1" datatype="html">
         <source>/en-JA/portfolio</source>
+        <target>JA Value /en-JA/portfolio</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">4</context>
@@ -27,6 +33,8 @@
       </trans-unit>
       <trans-unit id="title1" datatype="html">
         <source>attribute Check</source>
+        <target>JA Value attribute Check</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">4</context>
@@ -34,20 +42,25 @@
       </trans-unit>
       <trans-unit id="aTag" datatype="html">
         <source>Attribute Check</source>
+        <target>JA Value Attribute Check</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">4,7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="pluralization" datatype="html">
-        <source> <x id="ICU" equiv-text="{tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}" xid="9057336704109090456"/> </source>
+        <source>
+          <x id="ICU" equiv-text="{tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}" xid="9057336704109090456"/>
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">8,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="324706692010051697" datatype="html">
-        <source>{VAR_PLURAL, plural, zero {no tasks} one {one task} other {<x id="INTERPOLATION"/> tasks}}</source>
+        <source>{VAR_PLURAL, plural, zero {no tasks} one {one task} other {<x id="INTERPOLATION"/>
+ tasks}}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">8,10</context>
@@ -63,6 +76,8 @@
       </trans-unit>
       <trans-unit id="input-placeholder" datatype="html">
         <source>Enter your name</source>
+        <target>JA Value Enter your name</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">15,19</context>
@@ -70,6 +85,8 @@
       </trans-unit>
       <trans-unit id="imageTag" datatype="html">
         <source>Alt text for logo image</source>
+        <target>JA Value Heading Alt text for logo image</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">22,24</context>
@@ -77,6 +94,8 @@
       </trans-unit>
       <trans-unit id="myCustomId" datatype="html">
         <source>Submit</source>
+        <target>JA Value Submit</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">24,25</context>
@@ -88,6 +107,8 @@
       </trans-unit>
       <trans-unit id="heading1" datatype="html">
         <source> Hello Internationalization its prateek!</source>
+        <target>JA Value Heading Hello Internationalization its prateek</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">28,29</context>
@@ -95,6 +116,8 @@
       </trans-unit>
       <trans-unit id="checkLang1" datatype="html">
         <source>Meta Data for i18n prepaired by Prateek</source>
+        <target>JA Value Meta Data for i18n prepaired by Prateek</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">29,31</context>
@@ -104,6 +127,8 @@
       </trans-unit>
       <trans-unit id="href11" datatype="html">
         <source>/en-JA/portfolio</source>
+        <target>JA Value Heading /en-JA/portfolio</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">31</context>
@@ -111,6 +136,8 @@
       </trans-unit>
       <trans-unit id="title11" datatype="html">
         <source>attribute Check</source>
+        <target>JA Value Heading attribute Check</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">31,32</context>
@@ -118,13 +145,17 @@
       </trans-unit>
       <trans-unit id="aTag1" datatype="html">
         <source>Attribute Check</source>
+        <target>JA Value Heading Attribute Check</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">31,34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="pluralization1" datatype="html">
-        <source> <x id="ICU" equiv-text="{tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}" xid="9057336704109090456"/> </source>
+        <source>
+          <x id="ICU" equiv-text="{tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}" xid="9057336704109090456"/>
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">35,38</context>
@@ -132,6 +163,8 @@
       </trans-unit>
       <trans-unit id="input-placeholder1" datatype="html">
         <source>Enter your name</source>
+        <target>JA Value Heading Enter your name</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">42,46</context>
@@ -139,6 +172,8 @@
       </trans-unit>
       <trans-unit id="imageTag1" datatype="html">
         <source>Alt text for logo image</source>
+        <target>JA Value Heading Alt text for logo image</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">49,51</context>
@@ -146,6 +181,8 @@
       </trans-unit>
       <trans-unit id="myCustomId1" datatype="html">
         <source>Submit</source>
+        <target>JA Value Submit</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">51,52</context>
@@ -157,6 +194,8 @@
       </trans-unit>
       <trans-unit id="heading2" datatype="html">
         <source> Hello Internationalization its prateek!</source>
+        <target>JA Value Heading Hello Internationalization its prateek</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">54,55</context>
@@ -164,6 +203,8 @@
       </trans-unit>
       <trans-unit id="checkLang2" datatype="html">
         <source>Meta Data for i18n prepaired by Prateek</source>
+        <target>JA Value Meta Data for i18n prepaired by Prateek</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">55,57</context>
@@ -173,6 +214,8 @@
       </trans-unit>
       <trans-unit id="href12" datatype="html">
         <source>/en-JA/portfolio</source>
+        <target>JA Value /en-JA/portfolio</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">57</context>
@@ -180,6 +223,8 @@
       </trans-unit>
       <trans-unit id="title12" datatype="html">
         <source>attribute Check</source>
+        <target>JA Value attribute Check</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">57,58</context>
@@ -187,13 +232,17 @@
       </trans-unit>
       <trans-unit id="aTag2" datatype="html">
         <source>Attribute Check</source>
+        <target>JA Value Attribute Check</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">57,60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="pluralization2" datatype="html">
-        <source> <x id="ICU" equiv-text="{tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}" xid="9057336704109090456"/> </source>
+        <source>
+          <x id="ICU" equiv-text="{tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}" xid="9057336704109090456"/>
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">61,64</context>
@@ -201,6 +250,8 @@
       </trans-unit>
       <trans-unit id="input-placeholder2" datatype="html">
         <source>Enter your name</source>
+        <target>JA Value Enter your name</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">68,72</context>
@@ -208,6 +259,8 @@
       </trans-unit>
       <trans-unit id="imageTag2" datatype="html">
         <source>Alt text for logo image</source>
+        <target>JA Value Alt text for logo image</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">75,77</context>
@@ -215,6 +268,8 @@
       </trans-unit>
       <trans-unit id="myCustomId2" datatype="html">
         <source>Submit</source>
+        <target>JA Value Submit</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.html</context>
           <context context-type="linenumber">77,78</context>
@@ -225,7 +280,12 @@
         </context-group>
       </trans-unit>
       <trans-unit id="localizeId" datatype="html">
-        <source>Created by <x id="PH" equiv-text="this.title"/></source>
+        <source>Created by <x id="PH" equiv-text="this.title"/>
+        </source>
+        <target>JA Value Created by <x id="PH" equiv-text="this.title"/>
+        </target>
+
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -233,6 +293,8 @@
       </trans-unit>
       <trans-unit id="option1" datatype="html">
         <source>Option 1</source>
+        <target>JA Value Option 1</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.ts</context>
           <context context-type="linenumber">19</context>
@@ -240,6 +302,8 @@
       </trans-unit>
       <trans-unit id="option2" datatype="html">
         <source>Option 2</source>
+        <target>JA Value Option 2</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.ts</context>
           <context context-type="linenumber">20</context>
@@ -247,6 +311,8 @@
       </trans-unit>
       <trans-unit id="option3" datatype="html">
         <source>Option 3</source>
+        <target>JA Value Option 3</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">projects/localizei18n/src/app/app.component.ts</context>
           <context context-type="linenumber">21</context>

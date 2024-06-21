@@ -19,15 +19,63 @@
   <option *ngFor="let option of options" [value]="option.value" >{{ option.label }}</option>
 </select>
 
-<img src="https://media.istockphoto.com/id/1486721631/photo/e-learning-graduate-certificate-program-concept-businessman-hand-holding-light-bulb-with.jpg?s=2048x2048&w=is&k=20&c=x3c_xCOP7PY4z_e2x9bZdBXl4Bt3kazGIw_6R3l_cno=" i18n-alt="@@imageTag" alt="Alt text for logo image" />
+<img src="app.png" i18n-alt="@@imageTag" alt="Alt text for logo image" />
 
-  <!-- <ul>
-     @for(locale of localeList; track locale.code){
-        <li>
-            <a (click)="changeLanguage(locale.code)">{{locale.label}}</a>
-        </li>
-     }
-    
-  </ul> -->
+<button i18n="@@myCustomId">Submit</button>
+<div i18n="@@myCustomId">Submit</div>
+
+
+<h1 i18n="@@heading1"> Hello Internationalization its prateek!</h1>
+<h2 i18n="Meta Data | Hello i am representing the meta data for internationalization@@checkLang1 ">Meta Data for i18n prepaired by Prateek</h2>
+<p>
+  <a i18n="@@aTag1" i18n-href="@@href11" i18n-title="@@title11" href="/en-JA/portfolio" title="attribute Check">Attribute Check</a>
+</p>
+
+  <span i18n="@@pluralization1">
+    {tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}
+  </span>
+
+  <p>{{today | date:'fullDate'}}</p>
+  <p>{{newTitle}}</p>
+
+
+  <input i18n-placeholder="@@input-placeholder1" placeholder="Enter your name" />
+
+
+  <select >
+  <option *ngFor="let option of options" [value]="option.value" >{{ option.label }}</option>
+</select>
+
+<img src="app.png" i18n-alt="@@imageTag1" alt="Alt text for logo image" />
+
+<button i18n="@@myCustomId1">Submit</button>
+<div i18n="@@myCustomId1">Submit</div>
+
+<h1 i18n="@@heading2"> Hello Internationalization its prateek!</h1>
+<h2 i18n="Meta Data | Hello i am representing the meta data for internationalization@@checkLang2 ">Meta Data for i18n prepaired by Prateek</h2>
+<p>
+  <a i18n="@@aTag2" i18n-href="@@href12" i18n-title="@@title12" href="/en-JA/portfolio" title="attribute Check">Attribute Check</a>
+</p>
+
+  <span i18n="@@pluralization2">
+    {tasksCount, plural, zero {no tasks} one {one task} other { {{tasksCount}} tasks}}
+  </span>
+
+  <p>{{today | date:'fullDate'}}</p>
+  <p>{{newTitle}}</p>
+
+
+  <input i18n-placeholder="@@input-placeholder2" placeholder="Enter your name" />
+
+
+  <select >
+  <option *ngFor="let option of options" [value]="option.value" >{{ option.label }}</option>
+</select>
+
+<img src="app.png" i18n-alt="@@imageTag2" alt="Alt text for logo image" />
+
+<button i18n="@@myCustomId2">Submit</button>
+<div i18n="@@myCustomId2">Submit</div>
+
 
 <router-outlet />

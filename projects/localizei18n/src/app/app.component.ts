@@ -1,5 +1,7 @@
 import { Component, Inject, LOCALE_ID } from '@angular/core';
-
+import localeFr from '@angular/common/locales/fr';
+import { registerLocaleData } from '@angular/common';
+registerLocaleData(localeFr, 'fr-FR');
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,7 +12,7 @@ export class AppComponent {
   title = 'localization';
   today: number = Date.now();
   tasksCount = 3;
-  newTitle = $localize` Created by ${this.title}`;
+  newTitle = $localize`:@@localizeId:Created by ${this.title}:PH:`;
   localeList = [
     { code: 'fr-FR', label: 'Franse' },
     { code: 'es-ES', label: 'Espanish' },
