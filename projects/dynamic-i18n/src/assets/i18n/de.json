@@ -1,0 +1,3 @@
+{
+    "home.welcome": "Hallo {$name}! Sie haben {$messageCount} neue Nachrichten"
+}

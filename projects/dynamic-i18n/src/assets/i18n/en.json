@@ -1,0 +1,5 @@
+{
+    "home.welcome": "Hello {$name}! You have {$messageCount} messages.",
+    "heading": "Hello Internationalization its prateek!",
+    "metadata": "Meta Data for i18n prepaired by Prateek"
+}
