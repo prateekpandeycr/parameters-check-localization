@@ -1,3 +1,28 @@
 {
-    "home.welcome": "Hallo {$name}! Sie haben {$messageCount} neue Nachrichten"
+    "home.welcome": "Hallo {$name}! Sie haben {$messageCount} neue Nachrichten",
+    "heading": "Hello Internationalization its prateek!",
+    "metadata": "Meta Data for i18n prepaired by Prateek",
+    "hrefvalue": "/en-JA/portfolio",
+    "company.options": [
+        "option1de",
+        "option2de",
+        "option3de"
+    ],
+    "input.placeholder": "de Enter the value here",
+    "image.alt": "de Alternate Image Value",
+    "submit": "de added value",
+    "div": "de div value",
+    "home.welcome1": "de Hello {$name}! You have {$messageCount} messages.",
+    "heading1": "de Hello Internationalization its prateek!",
+    "metadata1": "de Meta Data for i18n prepaired by Prateek",
+    "hrefvalue1": "de /en-JA/portfolio",
+    "company.options1": [
+        "de option1",
+        "de option2",
+        "de option3"
+    ],
+    "input.placeholder1": "de Enter the value here",
+    "image.alt1": "de Alternate Image Value",
+    "submit1": "de added value",
+    "div1": "de div value"
 }

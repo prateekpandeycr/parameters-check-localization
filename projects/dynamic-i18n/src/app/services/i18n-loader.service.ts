@@ -8,7 +8,7 @@ import { Observable, take } from 'rxjs';
 export class I18nLoaderService {
   constructor(private readonly http: HttpClient) {}
 
-  loadTranslations(lang: string): Observable<Record<string, string>> {
+  loadTranslations(lang: string): Observable<Record<string, any>> {
     return this.http
       .get<Record<string, string>>(`/assets/i18n/${lang}.json`)
       .pipe(take(1));

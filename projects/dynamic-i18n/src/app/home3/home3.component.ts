@@ -1,16 +1,14 @@
 import { ChangeDetectorRef, Component, Inject } from '@angular/core';
-import { loadTranslations } from '@angular/localize';
 import { ActivatedRoute } from '@angular/router';
 import { Subject, Subscription, mergeMap } from 'rxjs';
 import { I18N_SERVICE } from '../services/ii18n-loader';
 import { I18nLoaderService } from '../services/i18n-loader.service';
-
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+  selector: 'app-home3',
+  templateUrl: './home3.component.html',
+  styleUrl: './home3.component.scss',
 })
-export class HomeComponent {
+export class Home3Component {
   messageCount = 9;
   name = 'Sudhir';
   welcome: string | undefined;
