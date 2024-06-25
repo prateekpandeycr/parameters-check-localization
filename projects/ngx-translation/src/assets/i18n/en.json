@@ -41,5 +41,177 @@
   "about": "<h1>What is ?</h1><p> is an all-in-one platform for scalable software localization and translation management. Be it web or mobile apps,  enables you to translate any kind of software.</p>",
   "CASESPECIFICKEY": "THE TRANSLATION KEY IS DEFINED AS {case}.",
   "casespecifickey": "the translation key is defined as {case}.",
-  "Casespecifickey": "The Translation Key Is Defined As {case}."
+  "Casespecifickey": "The Translation Key Is Defined As {case}.",
+  "title1": "Hello Internationalization its prateek!",
+  "metaData1": "Meta Data for  prepaired by Prateek",
+  "src1": "/en-JA/portfolio",
+  "name1": {
+    "label": "Attribute Field",
+    "placeholder": "Attribute Value for input text"
+  },
+  "DATE_FORMAT1": "dd/MM/yyyy",
+  "gender1": {
+    "label": "Gender",
+    "select": "Select gender",
+    "options": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "comment1": {
+    "label": "Image Alt text Comment",
+    "placeholder": "Enter Comment"
+  },
+  "rating1": {
+    "label": "Rate our customer service: ",
+    "options": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "bad": "Bad"
+    }
+  },
+  "submit1": {
+    "label": "Submit"
+  },
+  "requiredErrorMessage1": "This is a required field.",
+  "successfulSubmitMessage1": "Thanks for your valuable feedback!!!\nThe feedback has been submitted successfully.",
+  "copyright1": "All rights reserved. {currentYear} {company}",
+  "pluralization1": {
+    "items": "You have selected {count, plural, =0{nothing} one{one} other{multiple}} {count, plural, =0{} one{item} other{items}}.",
+    "gender": "{gender, select, male{He is a} female{She is a} other{They are}} {gender}."
+  },
+  "about1": "<h1>What is ?</h1><p> is an all-in-one platform for scalable software localization and translation management. Be it web or mobile apps,  enables you to translate any kind of software.</p>",
+  "CASESPECIFICKEY1": "THE TRANSLATION KEY IS DEFINED AS {case}.",
+  "casespecifickey1": "the translation key is defined as {case}.",
+  "Casespecifickey1": "The Translation Key Is Defined As {case}.",
+  "title2": "Hello Internationalization its prateek!",
+  "metaData2": "Meta Data for  prepaired by Prateek",
+  "src2": "/en-JA/portfolio",
+  "name2": {
+    "label": "Attribute Field",
+    "placeholder": "Attribute Value for input text"
+  },
+  "DATE_FORMAT2": "dd/MM/yyyy",
+  "gender2": {
+    "label": "Gender",
+    "select": "Select gender",
+    "options": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "comment2": {
+    "label": "Image Alt text Comment",
+    "placeholder": "Enter Comment"
+  },
+  "rating2": {
+    "label": "Rate our customer service: ",
+    "options": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "bad": "Bad"
+    }
+  },
+  "submit2": {
+    "label": "Submit"
+  },
+  "requiredErrorMessage2": "This is a required field.",
+  "successfulSubmitMessage2": "Thanks for your valuable feedback!!!\nThe feedback has been submitted successfully.",
+  "copyright2": "All rights reserved. {currentYear} {company}",
+  "pluralization2": {
+    "items": "You have selected {count, plural, =0{nothing} one{one} other{multiple}} {count, plural, =0{} one{item} other{items}}.",
+    "gender": "{gender, select, male{He is a} female{She is a} other{They are}} {gender}."
+  },
+  "about2": "<h1>What is ?</h1><p> is an all-in-one platform for scalable software localization and translation management. Be it web or mobile apps,  enables you to translate any kind of software.</p>",
+  "CASESPECIFICKEY2": "THE TRANSLATION KEY IS DEFINED AS {case}.",
+  "casespecifickey2": "the translation key is defined as {case}.",
+  "Casespecifickey2": "The Translation Key Is Defined As {case}.",
+  "title3": "Hello Internationalization its prateek!",
+  "metaData3": "Meta Data for  prepaired by Prateek",
+  "src3": "/en-JA/portfolio",
+  "name3": {
+    "label": "Attribute Field",
+    "placeholder": "Attribute Value for input text"
+  },
+  "DATE_FORMAT3": "dd/MM/yyyy",
+  "gender3": {
+    "label": "Gender",
+    "select": "Select gender",
+    "options": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "comment3": {
+    "label": "Image Alt text Comment",
+    "placeholder": "Enter Comment"
+  },
+  "rating3": {
+    "label": "Rate our customer service: ",
+    "options": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "bad": "Bad"
+    }
+  },
+  "submit3": {
+    "label": "Submit"
+  },
+  "requiredErrorMessage3": "This is a required field.",
+  "successfulSubmitMessage3": "Thanks for your valuable feedback!!!\nThe feedback has been submitted successfully.",
+  "copyright3": "All rights reserved. {currentYear} {company}",
+  "pluralization3": {
+    "items": "You have selected {count, plural, =0{nothing} one{one} other{multiple}} {count, plural, =0{} one{item} other{items}}.",
+    "gender": "{gender, select, male{He is a} female{She is a} other{They are}} {gender}."
+  },
+  "about3": "<h1>What is ?</h1><p> is an all-in-one platform for scalable software localization and translation management. Be it web or mobile apps,  enables you to translate any kind of software.</p>",
+  "CASESPECIFICKEY3": "THE TRANSLATION KEY IS DEFINED AS {case}.",
+  "casespecifickey3": "the translation key is defined as {case}.",
+  "Casespecifickey3": "The Translation Key Is Defined As {case}.",
+  "title4": "Hello Internationalization its prateek!",
+  "metaData4": "Meta Data for  prepaired by Prateek",
+  "src4": "/en-JA/portfolio",
+  "name4": {
+    "label": "Attribute Field",
+    "placeholder": "Attribute Value for input text"
+  },
+  "DATE_FORMAT4": "dd/MM/yyyy",
+  "gender4": {
+    "label": "Gender",
+    "select": "Select gender",
+    "options": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "comment4": {
+    "label": "Image Alt text Comment",
+    "placeholder": "Enter Comment"
+  },
+  "rating4": {
+    "label": "Rate our customer service: ",
+    "options": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "bad": "Bad"
+    }
+  },
+  "submit4": {
+    "label": "Submit"
+  },
+  "requiredErrorMessage4": "This is a required field.",
+  "successfulSubmitMessage4": "Thanks for your valuable feedback!!!\nThe feedback has been submitted successfully.",
+  "copyright4": "All rights reserved. {currentYear} {company}",
+  "pluralization4": {
+    "items": "You have selected {count, plural, =0{nothing} one{one} other{multiple}} {count, plural, =0{} one{item} other{items}}.",
+    "gender": "{gender, select, male{He is a} female{She is a} other{They are}} {gender}."
+  },
+  "about4": "<h1>What is ?</h1><p> is an all-in-one platform for scalable software localization and translation management. Be it web or mobile apps,  enables you to translate any kind of software.</p>",
+  "CASESPECIFICKEY4": "THE TRANSLATION KEY IS DEFINED AS {case}.",
+  "casespecifickey4": "the translation key is defined as {case}.",
+  "Casespecifickey4": "The Translation Key Is Defined As {case}."
 }
