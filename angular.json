@@ -297,7 +297,7 @@
             ],
             "scripts": [],
             "server": "projects/ngx-translation/src/main.server.ts",
-            "prerender": true,
+            "prerender": false,
             "ssr": {
               "entry": "projects/ngx-translation/server.ts"
             }
