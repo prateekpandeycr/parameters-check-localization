@@ -30,4 +30,37 @@ export class AppComponent {
       this.translate.use('en');
     }
   }
+
+  findPath(obj: any, value: string, path: string) {
+    if (typeof obj !== 'object') {
+      return;
+    }
+
+    for (let key in obj) {
+      if (obj[key] === value) {
+        return `${path}.${key}`; // Return path if value matches
+      }
+
+      // Recursively search in case of nested JSON
+      let found: any = this.findPath(obj[key], value, `${path}.${key}`);
+      if (found) {
+        return found;
+      }
+    }
+
+    return false;
+  }
+
+  jsonObject = {
+    a: 'a',
+    b: {
+      c: 'c',
+      d: {
+        e: 'e',
+      },
+    },
+    f: 'f',
+  };
+
+  path: any = this.findPath(this.jsonObject, 'e', '');
 }

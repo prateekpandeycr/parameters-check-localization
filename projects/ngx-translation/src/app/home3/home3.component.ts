@@ -20,7 +20,7 @@ export class Home3Component {
   title = 'localization';
   today: number = Date.now();
   tasksCount = 3;
-  newTitle = 'Check For Content';
+  newTitle = '';
 
   public options = [];
   changeLanguage() {
