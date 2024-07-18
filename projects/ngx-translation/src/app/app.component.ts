@@ -20,7 +20,7 @@ export class AppComponent {
   title = 'localization';
   today: number = Date.now();
   tasksCount = 3;
-  newTitle = 'Check For Content';
+  newTitle = 'rating.label';
 
   public options = [];
   changeLanguage() {

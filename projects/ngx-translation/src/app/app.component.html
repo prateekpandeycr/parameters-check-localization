@@ -6,7 +6,7 @@
 
   
   <p>{{today | date:(translate.instant('DATE_FORMAT'))}}</p>
-  <p>{{newTitle}}</p>
+  <p>{{newTitle | translate}}</p>
 
 
   <input  [placeholder]="'name.placeholder' | translate" />
@@ -113,7 +113,7 @@
 
 <button >{{"submit4.label" | translate}}</button>
 <div >{{"submit4.label" | translate}}</div>
-
+<!-- 
 <app-home1></app-home1>
 <app-home2></app-home2>
 <app-home3></app-home3>
@@ -128,5 +128,5 @@
 
 <app-home1></app-home1>
 <app-home2></app-home2>
-<app-home3></app-home3>
+<app-home3></app-home3> -->
 <router-outlet />
